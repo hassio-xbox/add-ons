@@ -7,7 +7,7 @@
   "startup": "before",
   "boot": "auto",
   "options": {
-    "host": "dustinrue-redis",
+    "host": "abd6af48-redis",
     "port": "6379"
   },
   "schema": {
