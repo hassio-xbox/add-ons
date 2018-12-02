@@ -1,0 +1,21 @@
+{
+  "name": "Xbox Live Credentials Manager",
+  "version": "latest",
+  "image": "dustinrue/xbox-live-credentials-manager-{arch}",
+  "slug": "xbox_live_credentials_manager",
+  "description": "Xbox Live Credentials Manager",
+  "startup": "before",
+  "boot": "auto",
+  "options": {
+    "host": "dustinrue-redis",
+    "port": "6379",
+    "Xbox_Live_User": "set me",
+    "Xbox_Live_Password": "set me"
+  },
+  "schema": {
+    "host": "str",
+    "port": "str",
+    "Xbox_Live_User": "str",
+    "Xbox_Live_Password": "str"
+  }
+}

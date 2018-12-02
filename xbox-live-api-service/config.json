@@ -1,0 +1,20 @@
+{
+  "name": "Xbox Live API Proxy",
+  "version": "36",
+  "image": "dustinrue/xbox-live-api-service-{arch}",
+  "slug": "xbox_live_api_service",
+  "description": "Xbox Live API Service",
+  "startup": "before",
+  "boot": "auto",
+  "options": {
+    "host": "dustinrue-redis",
+    "port": "6379"
+  },
+  "schema": {
+    "host": "str",
+    "port": "str"
+  },
+  "ports": {
+    "3000/tcp": 3000
+  }
+}
