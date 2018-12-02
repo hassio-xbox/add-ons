@@ -1,8 +1,8 @@
 {
   "name": "Redis Server",
-  "version": "1",
+  "version": "2",
   "slug": "redis",
-  "description": "Redis Server",
+  "description": "Redis services required by Xbox Live API proxy and Xbox Live Credentials Manager",
   "startup": "before",
   "boot": "auto",
   "options": {},
