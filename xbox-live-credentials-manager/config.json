@@ -3,7 +3,7 @@
   "version": "latest",
   "image": "dustinrue/xbox-live-credentials-manager-{arch}",
   "slug": "xbox_live_credentials_manager",
-  "description": "Xbox Live Credentials Manager",
+  "description": "Manages the authentication token used by the Xbox Live API Proxy service. Please see https://github.com/dustinrue/hassio-add-ons for information on how to configure.",
   "startup": "before",
   "boot": "auto",
   "options": {
