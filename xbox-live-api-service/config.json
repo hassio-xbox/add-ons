@@ -3,7 +3,7 @@
   "version": "39",
   "image": "dustinrue/xbox-live-api-service-{arch}",
   "slug": "xbox_live_api_service",
-  "description": "Xbox Live API Proxy Service. Please see https://github.com/dustinrue/hassio-add-ons for information on how to configure.",
+  "description": "Xbox Live API Proxy Service. Please see https://github.com/hassio-xbox/add-ons/tree/master/xbox-live-api-service for information on how to configure.",
   "startup": "before",
   "boot": "auto",
   "options": {
