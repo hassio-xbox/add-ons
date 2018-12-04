@@ -5,6 +5,7 @@
   "slug": "xbox_live_api_service",
   "description": "Xbox Live API Proxy Service. Please see https://github.com/hassio-xbox/add-ons/tree/master/xbox-live-api-service for information on how to configure.",
   "startup": "before",
+  "map": ["config:rw"],
   "boot": "auto",
   "options": {
     "host": "31bfb93a-redis",
