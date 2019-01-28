@@ -9,3 +9,7 @@ To get started simply add "https://github.com/hassio-xbox/add-ons.git" to hassio
 ## Contributing
 
 Please submit a PR that includes your add-on.
+
+## Credits:
+
+Github icon by https://opengameart.org/content/xbox-one-controller-icon
