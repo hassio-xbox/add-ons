@@ -1,6 +1,7 @@
 {
   "name": "Redis Server",
   "version": "2",
+  "image": "arm32v6/redis:5-alpine3.8",
   "slug": "redis",
   "description": "Redis services required by Xbox Live API proxy and Xbox Live Credentials Manager",
   "startup": "before",
