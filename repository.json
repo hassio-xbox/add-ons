@@ -1,5 +1,6 @@
 {
   "name": "Xbox Hassio Add-ons",
   "url": "https://github.com/hassio-xbox/add-ons",
-  "maintainer": "Dustin Rue <ruedu@dustinrue.com>"
+  "maintainer": "Dustin Rue <ruedu@dustinrue.com>",
+  "version": "1"
 }
